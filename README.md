@@ -4,8 +4,4 @@ This version only enables deluged (Docker daemon) and is only accessible by conn
 
 [deluge](http://deluge-torrent.org/) Deluge is a lightweight, Free Software, cross-platform BitTorrent client.
 
-* Full Encryption
-* Plugin System
-* Much more...
-
-[![deluge](https://avatars2.githubusercontent.com/u/6733935?v=3&s=200)][appurl]
+![deluge](https://avatars2.githubusercontent.com/u/6733935?v=3&s=200)]
