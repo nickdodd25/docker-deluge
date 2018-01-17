@@ -4,7 +4,7 @@ FROM lsiobase/alpine:3.7
 ARG BUILD_DATE
 ARG VERSION
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="sparklyballs"
+LABEL maintainer="nickd25"
 
 # environment variables
 ENV PYTHON_EGG_CACHE="/config/plugins/.python-eggs"
@@ -53,5 +53,5 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-EXPOSE 8112 58846 58946 58946/udp
+EXPOSE 58846 58946 58946/udp
 VOLUME /config /downloads
